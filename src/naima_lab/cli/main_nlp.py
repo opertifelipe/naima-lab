@@ -15,7 +15,7 @@ app = typer.Typer()
 def llm_sft_instruct(
     config_file: Annotated[
         str, typer.Option(help="This is the path to the config file")
-    ] = os.path.join("config", "config_llama3.2_1B_fast.yml"),
+    ] = os.path.join("config", "config_qwen2.5_1B_fast.yml"),
     dataset_path: Annotated[
         str, typer.Option(help="This is the path to the dataset.")
     ] = os.path.join("data", "raw", "FineTome-100k.json"),

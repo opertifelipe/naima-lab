@@ -39,7 +39,7 @@ dependencies = [
 
 
 [project.scripts]
-naima-lab = "naima_labs.cli.main:app"
+naima-lab = "naima_lab.cli.main:app"
 
 [build-system]
 requires = ["hatchling"]
