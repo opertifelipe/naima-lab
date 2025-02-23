@@ -3,7 +3,7 @@ chat_template: "qwen-2.5" # base or instruct
 max_seq_length: 2048
 load_in_4bit: true
 test_size: 0.0
-save_method: adapters # adapters vs full
+save_method: full # adapters vs full
 model_save_model: "model/model"
 
 unsloth:

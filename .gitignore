@@ -129,3 +129,4 @@ pyrightconfig.json
 data/
 unsloth_compiled_cache/
 model/
+llama.cpp/
